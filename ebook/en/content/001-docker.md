@@ -17,7 +17,7 @@ After reading this eBook, you will have a good understanding of the following:
 * What is Docker Swarm
 * How to deploy and manage a Docker Swarm Cluster
 
-I'll be using **DigitalOcean** for all of the demos, so I would strongly encourage you to create a **DigitalOcean** account follow along. You would learn more by doing!
+I'll be using **DigitalOcean** for all of the demos, so I would strongly encourage you to create a **DigitalOcean** account to follow along. You would learn more by doing!
 
 To make things even better you can use my referral link to get a free $100 credit that you could use to deploy your virtual machines and test the guide yourself on a few **DigitalOcean servers**:
 
