@@ -26,9 +26,16 @@ To download a copy of the ebook use one of the following links:
 
 ## 📘 Chapters
 
-* [**About the book**](ebook/en/content/000-introduction.md)
-* [**Title**](ebook/en/content/001-Title.md)
-* [**Conclusion**](ebook/en/content/999-conclusion.md)
+- [**About the book**](ebook/en/content/000-introduction.md)
+- [**Introduction to Docker**](ebook/en/content/001-docker.md)
+- [**Installing Docker**](ebook/en/content/002-installation.md)
+- [**Working with Docker containers**](ebook/en/content/003-docker-containers.md)
+- [**What are Docker Images**](ebook/en/content/004-docker-images.md)
+- [**What is a Dockerfile**](ebook/en/content/005-dockerfile.md)
+- [**Docker Network**](ebook/en/content/006-docker-networking.md)
+- [**What is Docker Swarm mode**](ebook/en/content/007-docker-swarm.md)
+- [**Managing the cluster**](ebook/en/content/007-docker-swarm.md)
+- [**Conclusion**](ebook/en/content/999-conclusion.md)
 
 ## 🌟 Sponsors
 
