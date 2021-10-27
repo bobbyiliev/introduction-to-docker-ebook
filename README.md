@@ -1,4 +1,4 @@
-<p align="center"><img src="https://imgur.com/AamC7m3.png" height="450" width="auto"></p>
+<p align="center"><img src="https://github.com/bobbyiliev/introduction-to-docker-ebook/raw/main/ebook/en/assets/banner.png" height="450" width="auto"></p>
 
 <div align="center">
     <p>
