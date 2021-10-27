@@ -74,10 +74,6 @@ Quick rundown of the arguments that I've used:
 
 * `-p 80:80`: this means that the traffic from the host on port 80 would be forwarded to the container. That way you could access the Apache instance which is running inside your docker container directly via your browser.
 
-The output of the above command would look like this:
-
-![](https://cdn.devdojo.com/posts/images/April2020/docker-run-image_id.png)
-
 With the docker info command now we can see that we have 1 running container. 
 
 And with the `docker ps` command we could see some useful information about the container like the container ID, when the container was started and etc.:
