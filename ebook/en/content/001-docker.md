@@ -38,14 +38,13 @@ According to the official definition from the [docker.com](docker.com) website, 
 
 Container images become containers at runtime and in the case of Docker containers - images become containers when they run on Docker Engine. Available for both Linux and Windows-based applications, containerized software will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging.
 
-![](content/infrastructure.png)
-
+![](https://github.com/bobbyiliev/introduction-to-docker-ebook/raw/main/ebook/en/assets/images/infrastructure.png)
 
 ## What is a Docker image?
 
 A **Docker Image** is just a template used to build a running Docker Container, similar to the ISO files and Virtual Machines. The containers are essentially the running instance of an image. Images are used to share containerized applications. Collections of images are stored in registries like [DockerHub](https://hub.docker.com/) or private registries.
 
-![](content/process.png)
+![](https://github.com/bobbyiliev/introduction-to-docker-ebook/raw/main/ebook/en/assets/images/process.png)
 
 
 ## What is Docker Hub?
