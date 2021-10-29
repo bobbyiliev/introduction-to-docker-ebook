@@ -1,11 +1,11 @@
 # What are Docker Images
 
-A Docker Image is just a template used to build a running Docker Container, similar to the ISO files and Virtual Machines. The containers are essentially the running instance of an image. Images are used to share a containerized applications. Collections of images are stored in registries like DockerHub or private registries.
+A Docker Image is just a template used to build a running Docker Container, similar to the ISO files and Virtual Machines. The containers are essentially the running instance of an image. Images are used to share containerized applications. Collections of images are stored in registries like DockerHub or private registries.
 
 
 ## Working with Docker images
 
-The `docker run` command downloads and runs images at the same time. But we could also only download images if we wanted to wit the docker pull command. For example:
+The `docker run` command downloads and runs images at the same time. But we could also only download images if we wanted to with the docker pull command. For example:
 
 ```
 docker pull ubuntu
@@ -60,7 +60,7 @@ docker exec -it container_name /bin/bash
 
 Install whatever packages needed then exit the container just press `CTRL+P+Q`.
 
-To then save your changes run the following:
+To save your changes run the following:
 
 ```
 docker container commit ID_HERE
@@ -76,7 +76,7 @@ The process would look as follows:
 
 ![](https://cdn.devdojo.com/posts/images/April2020/docker-commit.png)
 
-As you would notice your newly created image would not have a name nor a tag, so in order tag your image run:
+As you would notice your newly created image would not have a name nor a tag, so in order to tag your image run:
 
 ```
 docker tag IMAGE_ID YOUR_TAG
