@@ -60,7 +60,7 @@ The output would look like this:
 
 ![](https://cdn.devdojo.com/posts/images/April2020/docker-images.png)
 
-> Note, you do not necessarily need to pull the image, this is just for demo pourpouses. When running the `docker run` command, if the image is not available locally, it will automatically be pulled from Docker Hub.
+> Note, you do not necessarily need to pull the image, this is just for demo purposes. When running the `docker run` command, if the image is not available locally, it will automatically be pulled from Docker Hub.
 
 After that we can use the **docker run** command to spin up a new container:
 
@@ -76,7 +76,7 @@ Quick rundown of the arguments that I've used:
 
 With the docker info command now we can see that we have 1 running container. 
 
-And with the `docker ps` command we could see some useful information about the container like the container ID, when the container was started and etc.:
+And with the `docker ps` command we could see some useful information about the container like the container ID, when the container was started, etc.:
 
 ```
 root@docker:~# docker ps
@@ -93,7 +93,7 @@ Then you can stop the running container with the docker stop command followed by
 docker stop CONTAINER_ID
 ```
 
-If you need to you can start the container again:
+If you need to, you can start the container again:
 
 ```
 docker start CONTAINER_ID
@@ -116,14 +116,14 @@ docker exec -it CONTAINER_ID /bin/bash
 
 That way you will get to a **bash shell** in the container and execute some commands inside the container itself. 
 
-Then to detach from the interactive shell press `CTRL+PQ` that way you will not stop the container but just detached from the interactive shell.
+Then, to detach from the interactive shell, press `CTRL+PQ`. That way you will not stop the container but just detach it from the interactive shell.
 
 ![](https://cdn.devdojo.com/posts/images/April2020/docker-exec-stop1.png)
 
 
 ## Deleting a container
 
-To delete the container run first make sure that the container is not running and then run:
+To delete the container, first make sure that the container is not running and then run:
 
 ```
 docker rm CONTAINER_ID
