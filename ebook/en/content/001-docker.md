@@ -43,7 +43,7 @@ Container images become containers at runtime and in the case of Docker containe
 
 ## What is a Docker image?
 
-A **Docker Image** is just a template used to build a running Docker Container, similar to the ISO files and Virtual Machines. The containers are essentially the running instance of an image. Images are used to share a containerized applications. Collections of images are stored in registries like [DockerHub](https://hub.docker.com/) or private registries.
+A **Docker Image** is just a template used to build a running Docker Container, similar to the ISO files and Virtual Machines. The containers are essentially the running instance of an image. Images are used to share containerized applications. Collections of images are stored in registries like [DockerHub](https://hub.docker.com/) or private registries.
 
 ![](https://github.com/bobbyiliev/introduction-to-docker-ebook/raw/main/ebook/en/assets/process.png)
 
