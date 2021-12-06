@@ -52,7 +52,7 @@ You can use the `docker inspect` command to inspect other Docker objects like co
 
 ## Attaching containers to a network
 
-To practice what you'ce just learned, let's create two containers and add them to a Docker network so that they could communicate with each other using their container names.
+To practice what you've just learned, let's create two containers and add them to a Docker network so that they could communicate with each other using their container names.
 
 Here is a quick example of a `bridge` network:
 
