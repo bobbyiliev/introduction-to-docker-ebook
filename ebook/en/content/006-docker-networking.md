@@ -2,8 +2,8 @@
 
 Docker comes with a pluggable networking system. There are multiple plugins that you could use by default:
 
-* `bridge`: The default Docker network driver. This is sutable for standalone containers that need to communicate with each other.
-* `host`: This driver removes the network isolation between the container and the host. This is suatable for standalone containers which use the host network directly.
+* `bridge`: The default Docker network driver. This is suitable for standalone containers that need to communicate with each other.
+* `host`: This driver removes the network isolation between the container and the host. This is suitable for standalone containers which use the host network directly.
 * `overlay`: Overlay allows you to connect multiple Docker daemons. This enables you to run Docker swarm services by allowing them to communicate with each other. 
 * `none`: Disables all networking.
 
@@ -94,4 +94,4 @@ docker exec -ti web1 ping web2
 
 Again, keep in mind that it is quite important to explicitly specify names for your containers otherwise this would not work. I figured this out after spending a few hours trying to figure it out.
 
-For more informaiton about the power of the Docker network, make sure to check the official documentation [here](https://docs.docker.com/network/).
+For more information about the power of the Docker network, make sure to check the official documentation [here](https://docs.docker.com/network/).
