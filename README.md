@@ -27,14 +27,22 @@ To download a copy of the ebook use one of the following links:
 ## 📘 Chapters
 
 - [**About the book**](ebook/en/content/000-introduction.md)
-- [**Introduction to Docker**](ebook/en/content/001-docker.md)
-- [**Installing Docker**](ebook/en/content/002-installation.md)
-- [**Working with Docker containers**](ebook/en/content/003-docker-containers.md)
-- [**What are Docker Images**](ebook/en/content/004-docker-images.md)
-- [**What is a Dockerfile**](ebook/en/content/005-dockerfile.md)
-- [**Docker Network**](ebook/en/content/006-docker-networking.md)
-- [**What is Docker Swarm mode**](ebook/en/content/007-docker-swarm.md)
-- [**Managing the cluster**](ebook/en/content/007-docker-swarm.md)
+- [**Chapter 1: Introduction to Docker**](ebook/en/content/001-docker.md)
+- [**Chapter 2: Installing Docker**](ebook/en/content/002-installation.md)
+- [**Chapter 3: Working with Docker Containers**](ebook/en/content/003-docker-containers.md)
+- [**Chapter 4: What are Docker Images**](ebook/en/content/004-docker-images.md)
+- [**Chapter 5: What is a Dockerfile**](ebook/en/content/005-dockerfile.md)
+- [**Chapter 6: Docker Networking**](ebook/en/content/006-docker-networking.md)
+- [**Chapter 7: Docker Volumes**](ebook/en/content/007-docker-volumes.md)
+- [**Chapter 8: Docker Compose**](ebook/en/content/008-docker-compose.md)
+- [**Chapter 9: Docker Security Best Practices**](ebook/en/content/009-docker-security.md)
+- [**Chapter 10: Docker in Production: Orchestration with Kubernetes**](ebook/en/content/010-docker-and-kubernetes.md)
+- [**Chapter 11: Docker Performance Optimization**](ebook/en/content/011-docker-performance.md)
+- [**Chapter 12: Docker Troubleshooting and Debugging**](ebook/en/content/012-docker-debugging.md)
+- [**Chapter 13: Advanced Docker Concepts and Features**](ebook/en/content/013-docker-tips.md)
+- [**Chapter 14: Docker in CI/CD Pipelines**](ebook/en/content/014-docker-ci-cd.md)
+- [**Chapter 15: Docker and Microservices Architecture**](ebook/en/content/015-docker-microservices.md)
+- [**Chapter 16: Docker for Data Science and Machine Learning**](ebook/en/content/016-docker-ml.md)
 - [**Conclusion**](ebook/en/content/999-conclusion.md)
 
 ## 🌟 Sponsors
@@ -91,18 +99,6 @@ We will utilize the ["Deploy to DigitalOcean" Button](https://www.digitalocean.c
 
 Coming soon
 
-## 💻 Interactive training
-
-You can follow the interactive training online here:
-
-[Interactive Docker training](https://docker.bobby.sh/training.html)
-
-The training was built with Katacoda. You can find the Katacoda repository [here](https://github.com/bobbyiliev/katacoda).
-
-For more information on how to use Katacoda make sure to follow the steps from this tutorial here:
-
-[How to Use Katacoda to Create Highly Engaging Training Tutorials](https://devdojo.com/bobbyiliev/how-to-use-katacoda-to-create-highly-engaging-training-tutorials)
-
 ## 👋 About the author
 
 My name is Bobby Iliev, and I have been working as a Linux DevOps Engineer since 2014. I am an avid Linux lover and supporter of the open-source movement philosophy. I am always keen on doing what I cannot do in order to learn how to do it, and I believe in sharing knowledge.
@@ -130,7 +126,7 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 ## 🔗 Links
 
 - [My blog](https://bobbyiliev.com)
-- [Free $100 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
+- [Free $200 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
 - [Join DevDojo](https://devdojo.com?ref=bobbyiliev)
 - [Ibis](https://github.com/themsaid/ibis/)
 - [Canva](https://www.canva.com/)
@@ -148,5 +144,3 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 ## 🤲 Contributing
 
 If you are contributing 🍿 please read the [contributing file](CONTRIBUTING.md) before submitting your pull requests.
-
-
