@@ -183,4 +183,3 @@ Now you know how to initialize and scale a docker swarm cluster! For more inform
 Once you've read this post, make sure to test your knowledge with this **[Docker Swarm Quiz](https://quizapi.io/predefined-quizzes/common-docker-swarm-interview-questions)**:
 
 [https://quizapi.io/predefined-quizzes/common-docker-swarm-interview-questions](https://quizapi.io/predefined-quizzes/common-docker-swarm-interview-questions)
-

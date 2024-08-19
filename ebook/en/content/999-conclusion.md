@@ -16,8 +16,9 @@ Congrats again on completing this eBook!
 
 ## Other eBooks
 
-Some other opensource eBooks that you might find helpful are:
+Some other eBooks that you might find helpful are:
 
 - [Introduction to Git and GitHub](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook)
 - [Introduction to Bash Scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)
 - [Introduction to SQL](https://github.com/bobbyiliev/introduction-to-sql)
+- [Introduction to Linux](https://leanpub.com/introduction-to-linux)

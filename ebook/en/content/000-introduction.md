@@ -1,8 +1,8 @@
 # About the book
 
-* **This version was published on October 27 2021**
+* **This version was published on August 19 2024**
 
-This is an open-source introduction to Docker guide that will help you learn the basics of Docker and how to start using containers for your SysOps, DevOps, and Dev projects. No matter if you are a DevOps/SysOps engineer, developer, or just a Linux enthusiast, you will most likely have to use Docker at some point in your career.
+This is an introduction to Docker ebook that will help you learn the basics of Docker and how to start using containers for your SysOps, DevOps, and Dev projects. No matter if you are a DevOps/SysOps engineer, developer, or just a Linux enthusiast, you will most likely have to use Docker at some point in your career.
 
 The guide is suitable for anyone working as a developer, system administrator, or a DevOps engineer and wants to learn the basics of Docker.
 
@@ -36,7 +36,7 @@ For more information, please visit [https://www.digitalocean.com](https://www.di
 
 If you are new to DigitalOcean, you can get a free $100 credit and spin up your own servers via this referral link here:
 
-[Free $100 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
+[Free $200 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
 
 ### DevDojo
 
