@@ -35,15 +35,15 @@ For English:
 
 All the Markdown files for the 'Introduction to Docker' guide are located within the [`content`](./ebook/en/content) directory for the specific language.
 
-For example if you are adding a Bulgarian translation copy the `./ebook/en` folder to `./ebook/bg`, translate the `.md` files in the `content` directory and submit a PR.
+For example, if you are adding a Bulgarian translation, copy the `./ebook/en` folder to `./ebook/bg`, translate the `.md` files in the `content` directory, and submit a PR.
 
 ### `ebook/{LANG}/export`
 For English:
 [`ebook/en/export`](./ebook/en/export)
 
-Pdf version of 'Introduction to Docker' guide is located within the [`export`](./ebook/en/export) directory in both theme for the specific language.
+Pdf version of 'Introduction to Docker' guide is located within the [`export`](./ebook/en/export) directory in both light and dark themes for the specific language.
 
-For example if you are adding a Bulgarian translation then `./ebook/bg/export`, will contain pdf version of book in both theme present in Bulgarian.
+For example, if you are adding a Bulgarian translation, then `./ebook/bg/export` will contain a pdf version of the book in both light and dark themes in Bulgarian.
 
 ### PDF Generation
 
@@ -55,7 +55,7 @@ Make sure to follow the steps on how to get Ibis installed and how to use it her
 
 ## Issue Creation
 
-In the event that you have a issue using the guide or have a suggest for a change but don't want to contribute changes,
+In the event that you encounter an issue using the guide or have a change that you would like to propose, but do not want to make a contribution,
  we are more than happy to help.
 Make sure that when you create your issue, it follows the format for the type of issue you select
  (it has individual templates for each issue type).
