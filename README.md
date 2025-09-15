@@ -137,7 +137,6 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 - [Introduction to SQL](https://github.com/bobbyiliev/introduction-to-sql)
 - [Introduction to Git and GitHub](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook)
 - [Introduction to Bash Scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)
-- [Introduction to Docker](https://github.com/bobbyiliev/introduction-to-docker-ebook)
 - [Laravel tips and tricks](https://github.com/bobbyiliev/laravel-tips-and-tricks-ebook)
 
 ## 🤲 Contributing
