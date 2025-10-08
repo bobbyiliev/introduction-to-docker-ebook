@@ -41,7 +41,7 @@ For example, if you are adding a Bulgarian translation, copy the `./ebook/en` fo
 For English:
 [`ebook/en/export`](./ebook/en/export)
 
-Pdf version of 'Introduction to Docker' guide is located within the [`export`](./ebook/en/export) directory in both light and dark themes for the specific language.
+A PDF version of 'Introduction to Docker' guide is located within the [`export`](./ebook/en/export) directory in both light and dark themes for the specific language.
 
 For example, if you are adding a Bulgarian translation, then `./ebook/bg/export` will contain a pdf version of the book in both light and dark themes in Bulgarian.
 
@@ -64,3 +64,4 @@ Issue template types include the following:
  - Bug Reporting
  - Feature Requests
  - Help Requests
+
