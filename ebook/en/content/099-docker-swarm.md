@@ -176,6 +176,59 @@ Output:
 
 ![](https://cdn.devdojo.com/posts/images/May2020/docker-delete-service.png)
 
+## Using Stack Deploy
+Docker Swarm also supports stack deployment using a Docker Compose file.
+To use stack deploy, we first need to create a Docker Compose file for our application.
+
+For learning purposes, we can create a sample Docker Compose file as shown below:
+```
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    deploy:
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+      update_config:
+        parallelism: 2
+        delay: 10s
+      placement:
+        constraints:
+          - "node.role == worker"
+```
+
+Here,
+* `replicas` denotes the number of replicas that will be created for the deployment.
+* `node.role == worker` defines that we only want to deploy the application on worker nodes.
+
+Save this file as docker-compose.yml
+
+Now, to deploy the stack, run the following command:
+
+```
+docker stack deploy -c docker-compose.yml your_stack_name
+```
+
+To list all deployed stacks, use:
+
+```
+docker stack ls
+```
+
+To see the services running under a specific stack, run:
+
+```
+docker stack ps your_stack_name
+```
+
+To remove a stack, execute:
+
+```
+docker stack rm your_stack_name
+```
+
 Now you know how to initialize and scale a docker swarm cluster! For more information make sure to go through the official Docker documentation [here](https://docs.docker.com/engine/swarm/).
 
 ## Docker Swarm Knowledge Check
