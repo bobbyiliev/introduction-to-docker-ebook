@@ -30,5 +30,5 @@ return [
      * A notice printed at the final page of a generated sample.
      */
     'sample_notice' => 'This is a sample from "Introduction to Docker" by Bobby Iliev. <br>
-                        For more information, <a href="https://devdojo.com/">Click here</a>.',
+                        For more information, <a href="https://bobbyiliev.com/">Click here</a>.',
 ];
