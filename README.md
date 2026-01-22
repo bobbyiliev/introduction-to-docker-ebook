@@ -139,6 +139,16 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 - [Introduction to Bash Scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)
 - [Laravel tips and tricks](https://github.com/bobbyiliev/laravel-tips-and-tricks-ebook)
 
+## Star History
+
+<a href="https://www.star-history.com/#bobbyiliev/introduction-to-docker-ebook&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=bobbyiliev/introduction-to-docker-ebook&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=bobbyiliev/introduction-to-docker-ebook&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=bobbyiliev/introduction-to-docker-ebook&type=date&legend=top-left" />
+ </picture>
+</a>
+
 ## 🤲 Contributing
 
 If you are contributing 🍿 please read the [contributing file](CONTRIBUTING.md) before submitting your pull requests.
