@@ -48,13 +48,75 @@ services:
 
 ## 5. Use Non-Root Users
 
-Run containers as non-root users to limit the potential impact of a container breach:
+Run containers as non-root users to limit the potential impact of a container breach. This follows the principle of least privilege and significantly reduces security risks.
+
+### 5.1 Creating a Dedicated User
+
+For Debian/Ubuntu-based images:
 
 ```dockerfile
 FROM node:14
-RUN groupadd -r myapp && useradd -r -g myapp myuser
+
+# Create a non-root user with explicit UID/GID for better reproducibility
+RUN groupadd -r myapp --gid=10001 && \
+    useradd -r -g myapp --uid=10001 myuser
+
+WORKDIR /app
+
+# Copy application files with correct ownership to avoid a separate chown layer
+COPY --chown=myuser:myapp . /app
+
+# Switch to the non-root user
 USER myuser
+
+CMD ["node", "app.js"]
 ```
+
+For Alpine-based images:
+
+```dockerfile
+FROM alpine:3.19
+
+# Create a non-root user with explicit UID/GID
+RUN addgroup -S myapp -g 10001 && \
+    adduser -S -G myapp -u 10001 myuser
+
+WORKDIR /app
+
+# Copy with proper ownership
+COPY --chown=myuser:myapp . /app
+
+USER myuser
+
+CMD ["./app"]
+```
+
+### 5.2 Running Existing Images as Non-Root
+
+If you're using an existing image, you can specify a user at runtime:
+
+```bash
+# Run with numeric UID:GID (doesn't require the user to exist in the container)
+docker run --user 10001:10001 nginx
+
+# Or with docker-compose
+```
+
+```yaml
+version: '3.8'
+services:
+  web:
+    image: nginx
+    user: "10001:10001"
+```
+
+### 5.3 Best Practices for Non-Root Containers
+
+- Use explicit UIDs/GIDs (e.g., 10001) rather than usernames for consistency
+- Prefer `COPY --chown` over separate `RUN chown` commands to reduce image layers
+- Set appropriate permissions on volumes and bind mounts
+- Remember that ports below 1024 require root privileges (use higher ports)
+- Test your container thoroughly to ensure the non-root user has sufficient permissions
 
 ## 6. Use Secret Management
 
